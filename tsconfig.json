@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "ES2021",
+        "module": "ES2020",
+        "moduleResolution": "Bundler",
+        "lib": ["ES2021", "DOM"],
+        "declaration": true,
+        "declarationDir": ".",
+        "outDir": "build",
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "strict": true,
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true
+    },
+    "ts-node": {
+        "esm": true,
+        "experimentalSpecifierResolution": "node"
+    },
+    "exclude": ["node_modules", "temporary_modules", "tools/*.ts", "dist"]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "sui-tokenization",
+    "type": "module",
+    "devDependencies": {
+        "@types/bun": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "@mysten/sui": "^1.14.3",
+        "dotenv": "^16.4.5"
+    }
+}

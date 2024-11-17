@@ -1,0 +1,4 @@
+build/*
+tx-result.json
+node_modules/*
+.env
