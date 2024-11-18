@@ -5,7 +5,7 @@
 # Key Features
 
 ## Access Control
-
+I used object for access control by following best sui practice
 -   `MinterCap`: an owned object allow owner to create new asset on the plaform, mint/burn `TokenizedAsset<TOKEN>`
 -   `OperatorCap<TOKEN>`: an owned object allow owner to deposit revenue asset for `TokenizedAsset<TOKEN>` type
 
